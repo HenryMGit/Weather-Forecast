@@ -1,0 +1,4 @@
+.env
+node_modules/
+skycons-master
+/public/skycons.js
