@@ -5,39 +5,58 @@
 }
 
 body{
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
     height: 100vh;
+}
+
+.location{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    margin: 50px auto;
+}
+.container{
+    
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
     font-family: sans-serif;
     color: white;
 }
 
-.location, .temperature{
-    height: 30vh;
-    width: 50%;
+.day-Weather{
+    margin-left: 10px;
+    border-style: solid;
+    height: 55vh;
+    width: 12vw;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+    flex-direction: column; 
+    overflow: hidden;   
 }
 
-.temperature{
-    flex-direction: column;
+.dayOfWeek {
+    margin: 15px auto;
+    padding: 0;
 }
 
+.dayOfWeek h1{
+    font-size: 25px;
+}
+
+.icon-Canvas{
+    margin: 25px auto;
+    padding: 0;
+}
 .degree-section{
+    margin: 15px auto;
+    padding: 0;
     display: flex;
-    align-items: center;
-    cursor: pointer;
 }
 
-.degree-section span{
-    margin: 10px;
-}
-
-.degree-section h2{
-    font-size: 40px;
+.summary-section{
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+    
 }
